@@ -100,22 +100,22 @@ const Index = () => {
         {/* Slide 2 */}
         <section className={slideClass(1)}>
           <h2 className="text-xs uppercase tracking-widest text-primary font-bold mb-2">O Cenário Atual</h2>
-          <h3 className="text-2xl font-bold mb-6">Mãos ocupadas = Mensagens acumuladas.</h3>
-          <div className="space-y-4">
-            <div className="bg-card p-5 rounded-2xl border-l-4 border-destructive">
-              <p>Você está realizando um procedimento de Lash impecável...</p>
+          <h3 className="text-xl sm:text-2xl font-bold mb-4">Mãos ocupadas = Mensagens acumuladas.</h3>
+          <div className="space-y-3">
+            <div className="bg-card p-4 rounded-2xl border-l-4 border-destructive">
+              <p className="text-sm sm:text-base">Você está realizando um procedimento de Lash impecável...</p>
             </div>
             <div className="flex justify-center text-muted-foreground">
-              <ArrowDown className="w-5 h-5" />
+              <ArrowDown className="w-4 h-4" />
             </div>
-            <div className="bg-card p-5 rounded-2xl border-l-4 border-destructive">
-              <p>O celular toca no WhatsApp. Uma potencial cliente quer agendar.</p>
+            <div className="bg-card p-4 rounded-2xl border-l-4 border-destructive">
+              <p className="text-sm sm:text-base">O celular toca no WhatsApp. Uma potencial cliente quer agendar.</p>
             </div>
             <div className="flex justify-center text-muted-foreground">
-              <ArrowDown className="w-5 h-5" />
+              <ArrowDown className="w-4 h-4" />
             </div>
-            <div className="bg-card p-5 rounded-2xl border-l-4 border-primary">
-              <p className="font-semibold">
+            <div className="bg-card p-4 rounded-2xl border-l-4 border-primary">
+              <p className="font-semibold text-sm sm:text-base">
                 Você não pode responder na hora. A cliente busca outra profissional e você perde dinheiro.
               </p>
             </div>
