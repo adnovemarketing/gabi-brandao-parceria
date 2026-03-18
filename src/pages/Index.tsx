@@ -273,7 +273,7 @@ const Index = () => {
           </p>
           <button
             onClick={() =>
-              window.open("https://wa.me/", "_blank")
+              window.open("https://wa.me/554784641781?text=Eu%20topo%20fazer%20a%20parceria", "_blank")
             }
             className="bg-primary hover:bg-primary/90 text-primary-foreground font-bold py-4 px-8 rounded-full shadow-lg shadow-primary/30 transition transform hover:scale-105 w-full flex items-center justify-center gap-2"
           >
