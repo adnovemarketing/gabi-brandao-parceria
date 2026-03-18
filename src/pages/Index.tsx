@@ -46,7 +46,7 @@ const Index = () => {
   };
 
   const slideClass = (i: number) =>
-    `absolute inset-0 flex flex-col justify-center transition-all duration-400 ease-in-out ${
+    `absolute inset-0 flex flex-col justify-start overflow-y-auto transition-all duration-400 ease-in-out py-4 scrollbar-hide ${
       i === current
         ? "opacity-100 translate-x-0 pointer-events-auto relative"
         : i < current
